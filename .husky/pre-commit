@@ -2,3 +2,5 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 yarn lintnpx validate-branch-name
+npx lint-staged
+npm jest:test
